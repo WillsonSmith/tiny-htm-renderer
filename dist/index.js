@@ -1,0 +1,2 @@
+var e,r=((e=require("htm"))&&"object"==typeof e&&"default"in e?e.default:e).bind(function(e,r){var t;for(var n in e=document.createElement(e),r)n in e?e[n]=r[n]:e.setAttribute(n,r[n]);for(var a=arguments.length,l=new Array(a>2?a-2:0),i=2;i<a;i++)l[i-2]=arguments[i];return(t=e).append.apply(t,l.flat()),e});exports.html=r,exports.renderer=function(){var e=null;return function(r,t){e?t.replaceChild(r,e):t.appendChild(r),e=r}};
+//# sourceMappingURL=index.js.map

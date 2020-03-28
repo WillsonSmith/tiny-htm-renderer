@@ -1,0 +1,2 @@
+import r from"htm";var n=r.bind(function(r,n){var e;for(var t in r=document.createElement(r),n)t in r?r[t]=n[t]:r.setAttribute(t,n[t]);for(var a=arguments.length,i=new Array(a>2?a-2:0),o=2;o<a;o++)i[o-2]=arguments[o];return(e=r).append.apply(e,i),r}),e=function(){var r=null;return function(n,e){r?e.replaceChild(n,r):e.appendChild(n),r=n}};export{n as html,e as renderer};
+//# sourceMappingURL=index.esm.js.map

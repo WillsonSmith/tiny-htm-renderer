@@ -1,0 +1,21 @@
+{
+  "name": "@willson/tiny-htm-renderer",
+  "version": "0.0.1",
+  "description": "Small h function and renderer for htm",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/foo.module.js",
+  "unpkg": "dist/foo.umd.js",
+  "author": "Willson Smith (me@willsonsmith.com)",
+  "license": "MIT",
+  "scripts": {
+    "build": "microbundle",
+    "watch": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.12.0-next.8"
+  },
+  "dependencies": {
+    "htm": "^3.0.3"
+  }
+}
