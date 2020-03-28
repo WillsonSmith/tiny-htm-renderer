@@ -17,5 +17,6 @@
   },
   "dependencies": {
     "htm": "^3.0.3"
-  }
+  },
+  "repository": "https://github.com/WillsonSmith/tiny-htm-renderer.git"
 }
