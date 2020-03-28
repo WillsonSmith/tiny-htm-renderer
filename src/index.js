@@ -1,16 +1,11 @@
-import htm from "htm";
-
-function h(el, props, ...children) {
+export function h(el, props, ...children) {
   el = document.createElement(el);
   for (let i in props) {
     i in el ? (el[i] = props[i]) : el.setAttribute(i, props[i]);
   }
-  el.append(...children.flat());
+  el.append(...children.flat(Infinity));
   return el;
 }
-
-// will probably update to just export `h and `renderer`, not include `htm`
-export const html = htm.bind(h);
 
 export const renderer = () => {
   let oldChild = null;
