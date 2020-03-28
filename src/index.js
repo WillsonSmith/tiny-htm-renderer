@@ -8,6 +8,8 @@ function h(el, props, ...children) {
   el.append(...children.flat());
   return el;
 }
+
+// will probably update to just export `h and `renderer`, not include `htm`
 export const html = htm.bind(h);
 
 export const renderer = () => {
