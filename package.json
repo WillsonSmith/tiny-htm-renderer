@@ -1,11 +1,11 @@
 {
   "name": "@willson/tiny-htm-renderer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Small h function and renderer for htm",
   "source": "src/index.js",
   "main": "dist/index.js",
-  "module": "dist/foo.module.js",
-  "unpkg": "dist/foo.umd.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "author": "Willson Smith (me@willsonsmith.com)",
   "license": "MIT",
   "scripts": {
