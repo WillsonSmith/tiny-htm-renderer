@@ -8,10 +8,11 @@ export function h(el, props, ...children) {
 }
 
 export const renderer = () => {
-  let oldChild = null;
-
+  let oldChild = new Map();
   return (what, where) => {
-    oldChild ? where.replaceChild(what, oldChild) : where.appendChild(what);
-    oldChild = what;
+    oldChild.has(where)
+      ? where.replaceChild(what, oldChild.get(where))
+      : where.appendChild(what);
+    oldChild.set(where, what);
   };
 };

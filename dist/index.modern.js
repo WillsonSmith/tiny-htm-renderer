@@ -1,2 +1,2 @@
-function n(n,r){var e;for(var t in n=document.createElement(n),r)t in n?n[t]=r[t]:n.setAttribute(t,r[t]);for(var a=arguments.length,i=new Array(a>2?a-2:0),l=2;l<a;l++)i[l-2]=arguments[l];return(e=n).append.apply(e,i.flat(Infinity)),n}var r=function(){var n=null;return function(r,e){n?e.replaceChild(r,n):e.appendChild(r),n=r}};export{n as h,r as renderer};
+function e(e,n){var t;for(var r in e=document.createElement(e),n)r in e?e[r]=n[r]:e.setAttribute(r,n[r]);for(var a=arguments.length,i=new Array(a>2?a-2:0),p=2;p<a;p++)i[p-2]=arguments[p];return(t=e).append.apply(t,i.flat(Infinity)),e}var n=function(){var e=new Map;return function(n,t){e.has(t)?t.replaceChild(n,e.get(t)):t.appendChild(n),e.set(t,n)}};export{e as h,n as renderer};
 //# sourceMappingURL=index.modern.js.map
