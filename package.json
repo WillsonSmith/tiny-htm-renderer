@@ -1,6 +1,6 @@
 {
   "name": "@willson/tiny-htm-renderer",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Small h function and renderer for htm",
   "source": "src/index.js",
   "main": "dist/index.js",
